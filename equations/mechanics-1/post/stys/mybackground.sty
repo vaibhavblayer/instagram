@@ -1,0 +1,27 @@
+\def\logo{
+\begin{tikzpicture}[ rotate around= {60:(0, 0)}]
+\def \r {0.8}
+	\coordinate (a) at (\r * cos 30, -\r * sin 30);
+	\coordinate (b) at (-\r * cos 30, -\r * sin 30);
+	\coordinate (c) at (0,  \r );  
+	\node at (0,\r * 0.73){ };
+
+\centerarc [orange, line cap=round, line width=\r mm] (a)(120:180:\r * cos 30);
+\centerarc [orange, line cap=round, line width=\r mm] (b)(-0:60:\r * cos 30);
+\centerarc [orange, line cap=round, line width=\r mm] (c)(-120:-60:\r * cos 30);
+\end{tikzpicture}
+}
+
+\usepackage[
+			placement=bottom,
+			angle=0,
+			scale=3,
+			opacity=0.1,
+			vshift=5
+			]{background}
+
+\backgroundsetup{contents={\logo}}
+\pagenumbering{gobble}
+
+
+

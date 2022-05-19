@@ -1,0 +1,160 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{myenvironments}[2021/04/12 Example package]
+
+
+  
+\newcommand{\nm}{\begin{minipage}[c]{0.22\linewidth}
+{\Times{\textit{\textcolor{black}{\textbf{Instructions:- }}}}}
+\end{minipage}}
+
+\newcommand{\sm}{\begin{minipage}[c]{0.1\linewidth}
+{\Huge{\textcolor{tomato}{\textbf{ }}}}
+\end{minipage}}
+
+\newcommand{\vl}{{{\textcolor{black!50}{\textbf{\vrule width 1 pt{}}}}}}
+
+\newenvironment{mytitle}
+{
+	\begin{center}
+	\begin{itshape}
+	\normalsize\Times\textit{}
+}
+{
+	\end{itshape}
+	\end{center}
+}
+
+\newenvironment{instruction}
+{	
+	\begin{itshape}
+	\Times\textit{}
+}
+{
+	\end{itshape}
+}
+
+\newenvironment{instructions}
+{	
+\nm  \vl \,
+	\begin{minipage}[l]{0.7\linewidth}
+	\begin{instruction}
+	\begin{itemize}
+}
+{
+	\end{itemize}
+	\end{instruction}
+	\end{minipage}
+}
+
+
+
+\newenvironment{options}
+{	
+	\begin{multicols}{2}
+	\begin{enumerate}[label={\normalfont \alph*  \textcolor{black!55}{\Times{.}}}, itemsep=4 mm]
+	\Large{}
+}
+{
+	\end{enumerate}
+	\end{multicols}
+}
+
+
+
+
+
+\newenvironment{voptions}
+{	
+	\begin{enumerate}[label={\normalfont \alph*  \textcolor{black!55}{\Times{.}}}, itemsep=2 mm]
+}
+{
+	\end{enumerate}
+}
+
+
+\newenvironment{q-options}
+{	
+	\sm ~
+	\begin{minipage}[l]{0.86\linewidth}
+	\begin{note}
+	\begin{enumerate}[label={(\roman*)}, itemsep=0 mm]
+	\small{}
+}
+{
+	\end{enumerate}
+	\end{note}
+	\end{minipage}
+}
+
+\newenvironment{definition}
+{
+	\begin{center}
+	\begin{itshape}
+	\normalsize\Times\textit{}
+}
+{
+	\end{itshape}
+	\end{center}
+}
+
+
+\newenvironment{note}
+{
+	\begin{center}
+	\begin{itshape}
+	\tiny\Times\textit{}
+}
+{
+	\end{itshape}
+	\end{center}
+}
+
+\newenvironment{note-todo}
+{
+	\begin{center}
+	\begin{itshape}
+	\Times\textit{}
+}
+{
+	\end{itshape}
+	\end{center}
+}
+
+\newenvironment{answer}
+{
+	\begin{center}
+	\tikz \draw (0,0)--(5,0);\\ \vspace*{-2 mm}
+	\begin{itshape}
+	\small\Times\rotatebox{180}
+}
+{
+	\end{itshape}
+	\vspace*{0 mm} \\ \tikz \draw (0,0)--(5,0);
+	\end{center}
+}
+
+
+\newenvironment{todo}
+{	
+	\begin{note-todo}
+	\begin{enumerate}[label={\normalfont \arabic*  \textcolor{black!95}{\Times{.}}}, itemsep=6.5 mm]
+	
+}
+{
+	\end{enumerate}
+	\end{note-todo}
+}
+
+\newenvironment{optionss}[1]
+{	
+	\begin{multicols}{#1}
+	\begin{enumerate*}[label={\normalfont \alph*  \textcolor{black!55}{\Times{.}}}, itemsep=4 mm]
+	\Large{}
+}
+{
+	\end{enumerate*}
+	\end{multicols}
+}
+
+
+\endinput

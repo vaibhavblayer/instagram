@@ -1,0 +1,20 @@
+\documentclass{article}
+\usepackage{preamble}
+\begin{document}
+\pagecolor{white!85!orange}
+\color{white!10!purple}
+\begin{center}
+	\texttt{entropy}
+\end{center}
+\vspace*{\fill}
+
+\begin{center}
+\begin{tikzpicture}[very thick]
+	\draw (0,0) circle[radius=1];
+\end{tikzpicture}
+\end{center}
+
+\[ a+b \]
+
+\vspace*{\fill}
+\end{document}

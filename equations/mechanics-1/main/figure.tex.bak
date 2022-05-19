@@ -1,0 +1,16 @@
+{
+\begin{tikzpicture}[very thick, scale=1.4]
+\pic[hatchcolor=orange] (F) {frame=2.5cm};
+\draw (F-center)++(0, +1) coordinate (o) circle[radius=1];
+\fill (o) circle(1.5pt);
+\draw[-latex, thick] (o)--+(1, 0) node[right]{$v$};
+\centerarc [-stealth, thick] (o)(120:-60:0.4);
+\node at (o)[below=4 mm]{$\omega$};
+\pic[xshift=4cm, hatchcolor=orange] (G) {frame=2.5 cm};
+\draw (G-center)++(0, +1.25) coordinate (cc) circle[radius=1];
+\fill (G-center) circle(1.5pt);
+\fill (cc)++(0, -1) circle(1.5pt);
+\draw[-latex, thick] (cc)++(0, -1) --+(1, 0) node[right]{$v$};
+\draw[-latex, thick] (cc)++(0, -1) --+(-1, 0) node[left]{$R\omega$};
+\end{tikzpicture}
+}

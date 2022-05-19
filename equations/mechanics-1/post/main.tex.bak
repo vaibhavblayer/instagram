@@ -1,0 +1,24 @@
+\documentclass{article}
+\usepackage{main}
+\usepackage{kinematikz}
+
+\begin{document}
+
+\pagecolor{matte-black}
+\color{orange}
+
+\begin{center}
+{condition for pure rolling}
+\end{center}
+
+\begin{center}
+\input{../main/figure}
+\end{center}
+
+\begin{center}
+\input{../main/equation}
+\end{center}
+
+
+\end{document}
+

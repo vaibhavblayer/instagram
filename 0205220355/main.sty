@@ -1,0 +1,56 @@
+\ProvidesPackage{main}
+\usepackage{./stys/mysiunits}
+\usepackage{./stys/myshapes}
+\usepackage{./stys/mycolors}
+\usepackage{./stys/myenvironments}
+\usepackage{./stys/mypackages}
+\usepackage{./stys/mydefs}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage[paperwidth=4.5 in,paperheight=8 in,left=8 mm, right=8 mm, top=20 mm, bottom=20 mm]{geometry}
+\usepackage{graphics}
+\usepackage{fontawesome}
+\usepackage{enumitem}
+\usepackage{marvosym}
+\newcommand{\myitem}{\refstepcounter{enumi}\item[$^\star$\theenumi.]}
+\newcommand{\mmyitem}{\refstepcounter{enumi}\item[$^{\star \star}$\theenumi.]}
+\setcounter{page}{01}
+
+\usepackage[utf8]{inputenc}
+\usepackage{xcolor}
+\setlength{\arrayrulewidth}{0.1 mm}
+%BLUE%
+
+%%----HEADER &&& FOOTER----%%
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{5 mm}
+\usepackage{./stys/myheaders}
+
+\renewcommand{\headrulewidth}{0 mm}
+\renewcommand{\footrulewidth}{0 mm}
+
+\DeclareMathOperator{\Ln}{ln}
+\DeclareMathOperator{\cosec}{cosec}
+\DeclareMathSymbol{\shortminus}{\mathbin}{AMSa}{"39}
+
+%%----FONT &&& MATHS_FONT----%%
+
+\usepackage{amssymb}
+\usepackage{upgreek,xspace}
+
+\usepackage[utopia]{mathdesign}
+\renewcommand{\familydefault}{lmtt}
+\usepackage[scaled=1]{helvet}
+
+\usepackage[letterspace=120]{microtype}
+%\usepackage[inline]{enumitem}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{curves}
+\usepackage{setspace}
+\setstretch{1.2}
+

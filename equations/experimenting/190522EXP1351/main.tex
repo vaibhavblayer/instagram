@@ -1,0 +1,80 @@
+\documentclass{article}
+\usepackage{preamble}
+\usepackage{pgfornament}
+\usepackage{eso-pic}
+
+\usetikzlibrary{chains}
+
+
+
+
+%\makeatletter
+%\AddToShipoutPicture{%
+%\begingroup
+%\setlength{\@tempdima}{2mm}%
+%\setlength{\@tempdimb}{\paperwidth-\@tempdima-2cm}%
+%\setlength{\@tempdimc}{\paperheight-\@tempdima}%
+%\put(\LenToUnit{\@tempdima}, \LenToUnit{\@tempdimc}){%
+%\pgfornament[anchor=north west, width=5 cm]{63}}
+%\endgroup
+%}
+%\makeatother
+
+
+
+\begin{document}
+\pagecolor{black!83}
+\color{black!5}
+\begin{center}
+	\texttt{ornaments}
+\end{center}
+\vspace*{\fill}
+
+\pgfornament[width=2cm, color=red]{1}
+
+\begin{center}
+\begin{tikzpicture}[very thick]
+	\draw (0,0) circle[radius=1];
+\end{tikzpicture}
+\end{center}
+
+\[ a+b \]
+
+\vspace*{\fill}
+
+\pagebreak
+
+
+\newcommand{\eachpageornament}{
+\unitlength=1pt
+\begin{picture}(0, 0)
+\put (0, 0) {\pgfornament[width=1cm]{41}};
+
+\end{picture}
+}
+\eachpageornament
+
+\pagebreak
+\begin{newfamily}[pgfhan]
+\begin{center}
+\begin{tikzpicture}
+\tikzset{every node/.append style={%
+inner sep=0pt,
+color= orange, thin}}
+
+\node[minimum width=4.4in,minimum height=4.4in] (chframe){Hello}; 
+\node[anchor=north west] (nw) at (chframe.north west){\pgfornament[scale=0.2]{6}};
+
+ \node[anchor=south east] (se) at (chframe.south east){\pgfornament[symmetry=c,scale=0.2]{6}};
+
+\node[anchor=north east, rotate=-90,xscale=1,] at (se.north east) {\pgfornament[scale=0.2]{30}};
+
+\node[anchor=south east, xscale=2,] at (se.south west) {\pgfornament[scale=0.2]{30}};
+
+\node[anchor=north west,xscale=2] at (nw.north east) {\pgfornament[scale=0.2]{30}};
+\node[anchor=south west,rotate=-90, xscale=1] at (nw.south west){\pgfornament[scale=0.2]{30}};
+\end{tikzpicture}
+\end{center}
+\end{newfamily}
+
+\end{document}

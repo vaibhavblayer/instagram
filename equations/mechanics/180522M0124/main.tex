@@ -1,0 +1,48 @@
+\documentclass{article}
+\usepackage{preamble}
+\begin{document}
+\pagecolor{black!83}
+\color{teal!95}
+\begin{center}
+	\texttt{equilibrium}
+\end{center}
+\vspace*{\fill}
+
+\begin{center}
+\begin{tikzpicture}[very thick, scale=1]
+	\pic[hatchcolor=orange] (F) {frame=2.5cm} node[below=5mm]{\texttt{Unstable}};
+	\draw (F-center)++(0, +1) coordinate (C) circle[radius=1];
+	\shade (F-center)++(0, 2.25)  circle[radius=0.25];
+	\pic[xshift=-3.5cm, hatchcolor=orange] (G) {frame=2.5 cm} node[below=5mm, xshift=-3.5cm]{\texttt{Stable}};
+	\draw (G-center)++(0, +1) coordinate (CC) circle[radius=1];
+	\shade (G-center)++(0, 0.25) circle[radius=0.25];
+	\pic[xshift=3.5cm, hatchcolor=orange] (H) {frame=2.5cm} node[below=5mm, xshift=3.5 cm]{\texttt{Neutral}};
+	\shade (H-center)++(0, 0.25) circle[radius=0.25];
+\end{tikzpicture}
+\end{center}
+
+\begin{minipage}[c]{0.20\linewidth}
+\begin{center}
+\begin{align*}
+F=\dv{U}{r} &= 0\\[5 mm]
+\dv[2]{U}{r} &> 0\\
+\end{align*}
+\end{center}
+\end{minipage}
+\begin{minipage}[c]{0.44\linewidth}
+\begin{center}
+\begin{align*}
+F=\dv{U}{r} &= 0\\[5 mm]
+\dv[2]{U}{r} &< 0\\
+\end{align*}
+\end{center}
+\end{minipage}
+\begin{minipage}[c]{0.21\linewidth}
+\begin{align*}
+F=\dv{U}{r} &=0 \\[5 mm]
+\dv[2]{U}{r} &=0\\
+\end{align*}
+\end{minipage}
+
+\vspace*{\fill}
+\end{document}
