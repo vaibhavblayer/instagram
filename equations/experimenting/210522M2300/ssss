@@ -1,0 +1,8 @@
+#!/bin/zsh
+
+latex $1.tex
+dvips -Ppdf -o $1-pics.ps $1.dvi
+ps2pdf $1-pics.ps $1-pics.pdf
+pdflatex $1.tex
+bibtex $1
+pdflatex $1.tex
