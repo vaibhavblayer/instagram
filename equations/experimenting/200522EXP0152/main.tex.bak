@@ -1,13 +1,25 @@
 \documentclass{article}
 \usepackage{preamble}
 \usepackage{vaibhavblayer}
+
+\usepackage{ifthen}
+
+%\makeatletter
+%\newcommand{\fool}[1][Def1]{
+%	@ifnextchar[{\fool@i[{#1}]}{\fool@i[{#1}][{Def2}]}
+%	}
+%	\def\fool@i[#1][#2]#3{Hello #1, #2, #3}
+%\makeatother
+
+
 \begin{document}
 \pagecolor{white!85!orange}
 \color{white!10!purple}
+\noindent
 \begin{center}
 	\texttt{testing custom package \vaibhav}
 \end{center}
-\vspace*{\fill}
+%\vspace*{\fill}
 
 \begin{center}
 \begin{tikzpicture}[very thick, matte-black]
@@ -15,10 +27,27 @@
 \end{tikzpicture}
 \end{center}
 
+
+\begin{align*}
+\Aboxed{f(x) &= \int h(x) \; d\!x}\\
+						 &= g(x)
+\end{align*}
+
+
 \[ \int_0^5 \dfrac{2x+1}{x^2+1} \, d\!x \]
 
-
-$\overbrace{\tikz\level[3];}^{\texttt{level}}$
-
 \vspace*{\fill}
+
+\problem[2.25][0.75][4]{5}{Heloo\\Hello again \\ hello again and again}
+[\options{\task 1}{\task 2}{\task 3}{\task 4}]
+
+
+\ifthenelse{5 >10}{5}{10}
+\ifthenelse{\equal{mechanics}{mechanics}}{MEC}{M}
+
+
+\voptions{\task 1}{\task 2}{\task 3}{\task 4}
+
+
+
 \end{document}

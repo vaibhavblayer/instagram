@@ -14,10 +14,12 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhead[C]{
-	\textcolor{white!20!purple}{\texttt{\scalebox{0.75}{$\underbrace{\texttt{200522}}_{\texttt{date}}\texttt{EXP}\underbrace{\texttt{0152}}_{\texttt{time}}$}}}
+	\textcolor{white!20!purple}{\texttt{\scalebox{0.75}{$\underbrace{\texttt{200522}}_{\texttt{date(DMY)}}\overbrace{\texttt{EXP}}^{\texttt{topic}}\underbrace{\texttt{0152}}_{\texttt{time}}$}}}
 	}
 \renewcommand{\headrulewidth}{0 mm}
 \renewcommand{\footrulewidth}{0 mm}
 \fancyfoot[C]{
-$\overbrace{\tikz\level[3];}^{\texttt{level}}$
+$\overbrace{\tikz\level[3];}^{\texttt{difficulty level}}$
 }
+
+
