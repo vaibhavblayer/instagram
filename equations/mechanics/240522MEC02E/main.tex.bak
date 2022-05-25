@@ -1,0 +1,55 @@
+\documentclass{article}
+\usepackage{preamble}
+\usepackage{vaibhavblayer}
+
+\usepackage{ifthen}
+
+
+\begin{document}
+\pagecolor{white!85!orange}
+\color{white!10!teal}
+\noindent
+\begin{center}
+	\texttt{minimum friction required to roll without slipping}
+\end{center}
+\vspace*{\fill}
+
+\begin{center}
+\begin{tikzpicture}[thick]
+	\begin{scope}[ rotate around= {30:(1, 0)} ]
+		\draw (3.5,0.6) coordinate (o) circle[radius=0.6];
+		\fill (o) circle(2pt);
+		\draw[-latex] (o){}+(0, 0.8)--++(-1, 0.8) node[left]{$a$};
+		\draw[-latex] (o)--++(-1.5, 0) node[left]{$mg\sin\theta$};
+		\draw[-latex] (o){}+(0, -0.6) --++(1, -0.6) node[right, below]{$f$};
+		\centerarc [-stealth] (o)(0:220:0.3);
+		\draw[latex-] (4.75,0)--(5, 0.25)--++(0.5, 0) node[right]{$\mu$};
+	\end{scope}		
+	\draw (1, 0)--(5, 0)--(5, 2.3)--cycle;
+	\pic[xshift=3cm, hatchcolor=white!10!teal] {frame=6cm}; 
+\end{tikzpicture}
+\end{center}
+
+\[
+\mu \geq \dfrac{\tan\theta}{1 + \dfrac{mr^2}{I}}
+\]
+\begin{equation*}
+\eqnmarkbox{m}{m}
+\eqnmarkbox{a}{a}
+\eqnmarkbox{I}{I}
+\eqnmarkbox{mu}{\mu}
+\eqnmarkbox{theta}{\theta}
+\eqnmarkbox{r}{r}
+\end{equation*}
+\annotate[yshift=-0.2em]{below, left}{m}{\texttt{mass}}
+\annotate[yshift=-1.2em]{below,left}{a}{\texttt{acceleration}}
+\annotate[yshift=-2.2em]{below,left}{I}{\texttt{moment of inertia}}
+\annotate[yshift=-2.2em]{below,right}{mu}{\texttt{coefficient of friction}}
+\annotate[yshift=-1.2em]{below,right}{theta}{\texttt{inclined angle}}
+\annotate[yshift=-0.2em]{below,right}{r}{\texttt{radius}}
+
+
+\vspace*{\fill}
+
+
+\end{document}

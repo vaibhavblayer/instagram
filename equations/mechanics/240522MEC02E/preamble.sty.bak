@@ -1,0 +1,25 @@
+\ProvidesPackage{preamble}
+\renewcommand{\familydefault}{lmtt}
+\usepackage{geometry}
+
+\geometry{
+	 paperwidth=4.5 in,
+	 paperheight=4.5 in,
+	 top=16 mm,
+	 left=8 mm,
+	 right=8 mm,
+	 bottom=18 mm
+	}
+\usepackage{annotate-equations}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead[C]{
+	\textcolor{white!20!teal}{\texttt{\scalebox{0.75}{$\underbrace{\texttt{200522}}_{\texttt{date(DMY)}}\overbrace{\texttt{MEC}}^{\texttt{topic}}\underbrace{\texttt{01E}}_{\texttt{eqn num}}$}}}
+	}
+\renewcommand{\headrulewidth}{0 mm}
+\renewcommand{\footrulewidth}{0 mm}
+\fancyfoot[C]{
+$\underbrace{\tikz\level[3];}_{\texttt{difficulty level}}$
+}
+
+
