@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.28)  25 MAY 2022 17:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.28)  26 MAY 2022 23:05
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -25,7 +25,7 @@ File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 (/usr/local/texlive/2022basic/texmf-dist/tex/latex/vaibhavlayer/vaibhavblayer.s
 ty
-Package: vaibhavblayer 2013/04/04 v0.2 tram boxes in LaTeX
+Package: vaibhavblayer 2022/05/20 v1.0 in LaTeX
 
 (/usr/local/texlive/2022basic/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/local/texlive/2022basic/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
@@ -966,36 +966,36 @@ rs
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 6.
-LaTeX Font Info:    Trying to load font information for MDA+cmr on input line 6
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 8.
+LaTeX Font Info:    Trying to load font information for MDA+cmr on input line 8
 .
 
 (/usr/local/texlive/2022basic/texmf-dist/tex/latex/mathdesign/mdacmr.fd
 File: mdacmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 6.
-LaTeX Font Info:    Trying to load font information for MDB+cmr on input line 6
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 8.
+LaTeX Font Info:    Trying to load font information for MDB+cmr on input line 8
 .
 
 (/usr/local/texlive/2022basic/texmf-dist/tex/latex/mathdesign/mdbcmr.fd
 File: mdbcmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    ... okay on input line 8.
 
 (/usr/local/texlive/2022basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1056,80 +1056,98 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
-(Font)              scaled to size 10.70007pt on input line 9.
+(Font)              scaled to size 10.70007pt on input line 13.
 LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 18.
+(Font)              scaled to size 6.58002pt on input line 21.
 LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 18.
+(Font)              scaled to size 4.70001pt on input line 21.
 LaTeX Font Info:    Trying to load font information for OML+mdput on input line
- 18.
+ 21.
 
 (/usr/local/texlive/2022basic/texmf-dist/tex/latex/mathdesign/mdput/omlmdput.fd
 File: omlmdput.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdput.
 )
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 9.40002pt on input line 18.
+(Font)              scaled to size 9.40002pt on input line 21.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 6.58002pt on input line 18.
+(Font)              scaled to size 6.58002pt on input line 21.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 4.70001pt on input line 18.
+(Font)              scaled to size 4.70001pt on input line 21.
 LaTeX Font Info:    Trying to load font information for OMS+mdput on input line
- 18.
+ 21.
 
 (/usr/local/texlive/2022basic/texmf-dist/tex/latex/mathdesign/mdput/omsmdput.fd
 File: omsmdput.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdput.
 )
 LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 18.
+(Font)              scaled to size 9.40002pt on input line 21.
 LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 18.
+(Font)              scaled to size 6.58002pt on input line 21.
 LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 18.
+(Font)              scaled to size 4.70001pt on input line 21.
 LaTeX Font Info:    Trying to load font information for OMX+mdput on input line
- 18.
+ 21.
 
 (/usr/local/texlive/2022basic/texmf-dist/tex/latex/mathdesign/mdput/omxmdput.fd
 File: omxmdput.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdput.
 )
 LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 18.
+(Font)              scaled to size 9.40002pt on input line 21.
 LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 18.
+(Font)              scaled to size 6.58002pt on input line 21.
 LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 18.
+(Font)              scaled to size 4.70001pt on input line 21.
 LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 18.
+(Font)              scaled to size 9.40002pt on input line 21.
 LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 18.
+(Font)              scaled to size 6.58002pt on input line 21.
 LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 18.
+(Font)              scaled to size 4.70001pt on input line 21.
 LaTeX Font Info:    Trying to load font information for MDA+mdput on input line
- 18.
+ 21.
 
 (/usr/local/texlive/2022basic/texmf-dist/tex/latex/mathdesign/mdput/mdamdput.fd
 File: mdamdput.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdput.
 )
 LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 18.
+(Font)              scaled to size 9.40002pt on input line 21.
 LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 18.
+(Font)              scaled to size 6.58002pt on input line 21.
 LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 18.
+(Font)              scaled to size 4.70001pt on input line 21.
 LaTeX Font Info:    Trying to load font information for MDB+mdput on input line
- 18.
+ 21.
 
 (/usr/local/texlive/2022basic/texmf-dist/tex/latex/mathdesign/mdput/mdbmdput.fd
 File: mdbmdput.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdput.
 )
 LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 18.
+(Font)              scaled to size 9.40002pt on input line 21.
 LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 18.
+(Font)              scaled to size 6.58002pt on input line 21.
 LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 18.
-LaTeX Font Info:    Font shape `T1/mdput/m/sl' will be
-(Font)              scaled to size 9.40002pt on input line 22.
+(Font)              scaled to size 4.70001pt on input line 21.
 
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
+(Font)              scaled to size 13.53603pt on input line 36.
+LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
+(Font)              scaled to size 13.53603pt on input line 37.
+LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
+(Font)              scaled to size 13.53603pt on input line 37.
+LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
+(Font)              scaled to size 13.53603pt on input line 37.
+LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
+(Font)              scaled to size 13.53603pt on input line 37.
+LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
+(Font)              scaled to size 13.53603pt on input line 37.
+LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
+(Font)              scaled to size 13.53603pt on input line 37.
+LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
+(Font)              scaled to size 13.53603pt on input line 37.
+LaTeX Font Info:    Font shape `T1/mdput/m/sl' will be
+(Font)              scaled to size 9.40002pt on input line 44.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1138,22 +1156,26 @@ Missing character: There is no ; in font nullfont!
 ]
 (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 23139 strings out of 478233
- 500566 string characters out of 5841343
- 843880 words of memory out of 5000000
- 40911 multiletter control sequences out of 15000+600000
- 499982 words of font info for 55 fonts, out of 8000000 for 9000
+ 23355 strings out of 478233
+ 505505 string characters out of 5841343
+ 849976 words of memory out of 5000000
+ 41117 multiletter control sequences out of 15000+600000
+ 515506 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 115i,12n,132p,422b,664s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 115i,12n,132p,422b,969s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022basic/texmf-dist/fonts/enc/dvips/ly1/texn
 ansi.enc}{/usr/local/texlive/2022basic/texmf-dist/fonts/enc/dvips/cm-super/cm-s
-uper-t1.enc}</usr/local/texlive/2022basic/texmf-dist/fonts/type1/adobe/utopia/p
-utri8a.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/cm-super
-/sftt1000.pfb>
-Output written on main.pdf (1 page, 35397 bytes).
+uper-t1.enc}</usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/mathdes
+ign/mdput/md-utr7t.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/pub
+lic/mathdesign/mdput/md-utr7y.pfb></usr/local/texlive/2022basic/texmf-dist/font
+s/type1/public/mathdesign/mdput/md-utri7m.pfb></usr/local/texlive/2022basic/tex
+mf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2022basic/texmf
+-dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/local/texlive/2022basic/texmf-
+dist/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on main.pdf (1 page, 58592 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
- 23 compressed objects within 1 object stream
+ 68 PDF objects out of 1000 (max. 8388607)
+ 35 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 109 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 113 words of extra memory for PDF output out of 10000 (max. 10000000)
 
