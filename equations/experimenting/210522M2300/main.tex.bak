@@ -1,9 +1,9 @@
 \documentclass{article}
 \usepackage{vaibhavblayer}
 
-\instagram-post
+\instagramp
 \header{250522}{MEC}{03}
-\footer{3}
+\footer{2}
 
 
 %\setlength{\headsep}{0mm}
@@ -21,9 +21,7 @@
 \begin{document}
 \pagecolor{white!85!orange}
 \color{matte-black}
-\begin{center}
-	\texttt{entropy}
-\end{center}
+\title[0.8]{entropy}
 \vspace*{\fill}
 
 \begin{center}
@@ -36,9 +34,14 @@
 \end{center}
 
 \[ \int_0^5 \dfrac{2x+1}{x^2+1} \, d\!x \]
-
 \vspace*{\fill}
+%\input{out}
 
+\pagebreak
+\begin{center}
+\includegraphics
+[width=8 cm, keepaspectratio]{out.pdf}
+\end{center}
 \pagebreak
 
 

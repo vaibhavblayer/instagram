@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.28)  26 MAY 2022 23:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.28)  27 MAY 2022 18:44
 entering extended mode
- \write18 enabled.
+ restricted \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
@@ -963,7 +963,7 @@ rs
 \f@nch@O@olf=\skip72
 \f@nch@O@orf=\skip73
 ))
-(./main.aux)
+No file main.aux.
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -983,7 +983,6 @@ LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 8.
 LaTeX Font Info:    Trying to load font information for MDA+cmr on input line 8
 .
-
 (/usr/local/texlive/2022basic/texmf-dist/tex/latex/mathdesign/mdacmr.fd
 File: mdacmr.fd 
 )
@@ -1156,9 +1155,9 @@ Missing character: There is no ; in font nullfont!
 ]
 (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 23355 strings out of 478233
- 505505 string characters out of 5841343
- 849976 words of memory out of 5000000
+ 23353 strings out of 478233
+ 505487 string characters out of 5841343
+ 849985 words of memory out of 5000000
  41117 multiletter control sequences out of 15000+600000
  515506 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
