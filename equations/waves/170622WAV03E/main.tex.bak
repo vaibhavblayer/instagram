@@ -1,0 +1,52 @@
+\documentclass{article}
+\usepackage{vaibhavblayer}
+\instagramp
+
+\header{170622}{WAV}{03}[E]
+\footer{3}
+
+\begin{document}
+
+\pagecolor{white!85!orange}
+\color{white!10!purple}
+
+\title{Doppler's Effect}
+
+\vspace*{\fill}
+
+\begin{center}
+\begin{tikzpicture}[>=latex, every node/.style={scale=0.8} ]
+\coordinate (o) at (-3,0);
+\coordinate (s) at (3,0);
+\coordinate (w) at (0,1);
+\fill (o) circle(2pt) node[below]{$O$} (s) circle(2pt) node[below]{$S$};
+\draw[->] (o)--+(1, 0) node[right]{$v_o$};
+\draw[->] (s)--+(-1, 0) node[left]{$v_s$};
+\draw[->] (w) node[right]{\texttt{wind}}--+(-1, 0) node[left]{$v_w$};
+\draw[snake=snake] (w)++(1, -2)--+(-2, 0) coordinate (sd) node[midway, below]{\texttt{sound}};
+\draw[->] (sd)--+(-0.25,0);
+\end{tikzpicture}
+\end{center}
+\vspace*{\fill}
+{\large
+\[
+ f' = \left( \dfrac{v + v_w + v_o}{v + v_w - v_s} \right) f_0
+\]
+}
+\vspace*{\fill}
+\begin{equation*}
+\eqnmarkbox{fn}{f'}
+\eqnmarkbox{v}{v}
+\eqnmarkbox{vw}{v_w}
+\eqnmarkbox{vo}{v_o}
+\eqnmarkbox{vs}{v_s}
+\eqnmarkbox{fo}{f_0}
+\end{equation*}
+\annotate[yshift=-0.2 em]{below, left}{fn}{\texttt{observed frequency}}
+\annotate[yshift=-1.2 em]{below, left}{v}{\texttt{velocity of sound}}
+\annotate[yshift=-2.2 em]{below, left}{vw}{\texttt{velocity of wind}}
+\annotate[yshift=-0.2 em]{below, right}{vo}{\texttt{velocity of observer}}
+\annotate[yshift=-0.2 em]{below, right}{vs}{\texttt{velocity of source}}
+\annotate[yshift=-0.2 em]{below, right}{d}{\texttt{source frequency}}
+%	\vspace*{\fill}
+\end{document}
