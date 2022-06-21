@@ -1,0 +1,40 @@
+\documentclass{article}
+\usepackage{vaibhavblayer}
+\instagramp
+
+\header{210622}{MAG}{01}[P]
+\footer{3}
+
+\begin{document}
+
+\small
+\pagecolor{white!85!orange}
+\color{white!10!purple}
+
+\title{magnetic force}
+
+\problem{1}{Two particles $A$ and $B$ of masses $m_A$ and $m_B$ respectively and having the same charge are moving in a plane. A uniform magnetic field exists perpendicular to this plane. The speeds of the particles are $v_A$ and $v_B$ respectively and the trajectories are as shown in the figure. Then,} [IIT-JEE 2001]
+
+\vspace*{\fill}
+\begin{center}
+\begin{tikzpicture}
+\foreach  \x in {0,1,...,5}
+   {
+	\foreach  \y in {0,1,...,3}
+   {
+	\draw (\x, \y) circle(2pt);   
+   };   
+   };
+   
+   \coordinate (a) at (2.5,0.5);
+   \xangle[thick]{a}{0}{180}{1}[$B$];
+      \xangle[thick]{a}{0}{180}{1.5}[$A$];
+   \centerarc [-Stealth] (a)(90:85:1);
+      \centerarc [-Stealth] (a)(90:85:1.5);
+\end{tikzpicture}
+\end{center}
+
+\vspace*{\fill}
+\options{$m_Av_A < m_Bv_B$}{$m_A v_A > m_B v_B$}{$m_A < m_B \textit{ and } v_A < v_B$}{$m_A = m_B \textit{ and } v_A = v_B$}
+
+\end{document}

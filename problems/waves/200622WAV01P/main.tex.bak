@@ -1,0 +1,29 @@
+\documentclass{article}
+\usepackage{vaibhavblayer}
+\instagramp
+
+\header{200622}{WAV}{01}[P]
+\footer{2}
+
+\begin{document}
+
+\small
+\pagecolor{white!85!orange}
+\color{white!10!purple}
+
+\title{Doppler's Effect}
+
+\problem{1}{A car approaching a crossing C at a speed of $20\ms$ sounds a horn of frequency $500$}
+
+\vspace*{\fill}
+\begin{center}
+\begin{tikzpicture}
+\pic (ground) {frame=5cm};
+\draw (ground-center)++(0, 1) circle[radius=1];
+\end{tikzpicture}
+\end{center}
+
+\vspace*{\fill}
+\options{Option a}{Option b}{Option c}{Option d}
+
+\end{document}

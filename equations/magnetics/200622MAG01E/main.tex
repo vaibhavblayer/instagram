@@ -1,0 +1,45 @@
+\documentclass{article}
+\usepackage{vaibhavblayer}
+\instagramp
+
+\header{200622}{MAG}{01}[E]
+\footer{2}
+
+\begin{document}
+
+\pagecolor{white!85!orange}
+\color{matte-black}
+
+\title{Magnetic force on a moving charge}
+
+\vspace*{\fill}
+\begin{center}
+\begin{tikzpicture}[>=latex, thick, line cap=round]
+\fill (0, 0, 0) circle(2pt) node[below]{$q$};
+\draw[->] (0,0,0)--(2,0,0) node[below]{$\vec{v}$};
+\draw[->] (0,0,0)--(0,1.5,0) node[left]{$\vec{F}_m$};
+\draw[->] (0,0,0)--(1,0,-2) node[above]{$\vec{B}$};
+\draw (0.5,0,0) arc[start angle=0, end angle=24, radius=0.5];
+\draw [line width=0 mm, opacity=0.35,pattern=grid, pattern color=matte-black] (0,0,0)--(2,0,0)--(3,0,-2)--(1,0,-2)--(0,0,0);
+\end{tikzpicture}
+\end{center}
+
+\vspace*{\fill}
+{\large
+\[
+\vec{F}_m = q \left( \vec{v} \times \vec{B} \right) 
+\]
+}
+
+\vspace*{\fill}
+\begin{equation*}
+\eqnmarkbox{fm}{\vec{F}_m}
+\eqnmarkbox{q}{q}
+\eqnmarkbox{v}{\vec{v}}
+\eqnmarkbox{b}{\vec{B}}
+\end{equation*}
+\annotate[yshift=-0.2 em]{below, left}{fm}{\texttt{magnetic force}}
+\annotate[yshift=-1.2 em]{below, left}{q}{\texttt{charge}}
+\annotate[yshift=-1.2 em]{below, right}{v}{\texttt{velocity}}
+\annotate[yshift=-0.2 em]{below, right}{b}{\texttt{magnetic field}}
+\end{document}

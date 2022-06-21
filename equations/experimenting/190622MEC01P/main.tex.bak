@@ -1,0 +1,40 @@
+\documentclass{article}
+\usepackage{vaibhavblayer}
+\instagramp
+
+\header{190622}{MEC}{01}[P]
+\footer{2}
+
+\begin{document}
+
+\pagecolor{white!85!orange}
+\color{white!10!purple}
+
+\title{Magnetic field}
+\problem[2][0.7][1.5]{1}{Problem 01}
+\vspace*{\fill}
+
+\begin{center}
+\begin{tikzpicture}
+\pic (ground) {frame=5cm};
+\draw (ground-center)++(0, 1) circle[radius=1];
+\end{tikzpicture}
+\end{center}
+
+\vspace*{\fill}
+\[
+ \int_0^5 \dfrac{2x}{1+x^2} \; d\!x 
+\]
+
+\vspace*{\fill}
+\begin{equation*}
+\eqnmarkbox{a}{a}
+\eqnmarkbox{b}{b}
+\eqnmarkbox{c}{c}
+\eqnmarkbox{d}{d}
+\end{equation*}
+\annotate[yshift=-0.2 em]{below, left}{a}{\texttt{alphabet}}
+\annotate[yshift=-1.2 em]{below, left}{b}{\texttt{alphabet}}
+\annotate[yshift=-1.2 em]{below, right}{c}{\texttt{alphabet}}
+\annotate[yshift=-0.2 em]{below, right}{d}{\texttt{alphabet}}
+\end{document}
