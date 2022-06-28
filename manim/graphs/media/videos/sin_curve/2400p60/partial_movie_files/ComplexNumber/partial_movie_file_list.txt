@@ -1,0 +1,3 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/vaibhavblayer/instagram/manim/graphs/media/videos/sin_curve/2400p60/partial_movie_files/ComplexNumber/2201444926_4110966018_1077740267.mp4'
+file 'file:/Users/vaibhavblayer/instagram/manim/graphs/media/videos/sin_curve/2400p60/partial_movie_files/ComplexNumber/1471318182_2330410433_3669252134.mp4'

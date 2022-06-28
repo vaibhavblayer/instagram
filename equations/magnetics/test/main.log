@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.28)  21 JUN 2022 12:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.28)  22 JUN 2022 13:46
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1002,7 +1002,31 @@ Package pgf Warning: Snakes have been superseded by decorations. Please use the
 (/usr/local/texlive/2022basic/texmf-dist/tex/generic/pgf/frontendlayer/tikz/lib
 raries/tikzlibrarydecorations.shapes.code.tex
 (/usr/local/texlive/2022basic/texmf-dist/tex/generic/pgf/libraries/decorations/
-pgflibrarydecorations.shapes.code.tex)))) (./main.aux)
+pgflibrarydecorations.shapes.code.tex))))
+(/usr/local/texlive/2022basic/texmf-dist/tex/generic/pgf/frontendlayer/tikz/lib
+raries/tikzlibrarybending.code.tex
+File: tikzlibrarybending.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2022basic/texmf-dist/tex/generic/pgf/modules/pgfmodulebendi
+ng.code.tex
+File: pgfmodulebending.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2022basic/texmf-dist/tex/generic/pgf/modules/pgfmodulenonli
+neartransformations.code.tex
+File: pgfmodulenonlineartransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgftransformnonlinearflatness=\dimen302
+)
+(/usr/local/texlive/2022basic/texmf-dist/tex/generic/pgf/libraries/pgflibrarycu
+rvilinear.code.tex
+File: pgflibrarycurvilinear.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@curvilinear@time@a=\dimen303
+\pgf@curvilinear@length@a=\dimen304
+\pgf@curvilinear@length@b=\dimen305
+\pgf@curvilinear@length@c=\dimen306
+\pgf@curvilinear@length@d=\dimen307
+)
+\pgf@arrows@the@rigidity=\dimen308
+)) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -1039,13 +1063,13 @@ LaTeX Font Info:    ... okay on input line 8.
 (/usr/local/texlive/2022basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count329
-\scratchdimen=\dimen302
+\scratchdimen=\dimen309
 \scratchbox=\box92
 \nofMPsegments=\count330
 \nofMParguments=\count331
 \everyMPshowfont=\toks40
 \MPscratchCnt=\count332
-\MPscratchDim=\dimen303
+\MPscratchDim=\dimen310
 \MPnumerator=\count333
 \makeMPintoPDFobject=\count334
 \everyMPtoPDFconversion=\toks41
@@ -1094,98 +1118,10 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
-(Font)              scaled to size 10.70007pt on input line 13.
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 30.
-LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 30.
-LaTeX Font Info:    Trying to load font information for OML+mdput on input line
- 30.
-
-(/usr/local/texlive/2022basic/texmf-dist/tex/latex/mathdesign/mdput/omlmdput.fd
-File: omlmdput.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdput.
-)
-LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 9.40002pt on input line 30.
-LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 6.58002pt on input line 30.
-LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 4.70001pt on input line 30.
-LaTeX Font Info:    Trying to load font information for OMS+mdput on input line
- 30.
-
-(/usr/local/texlive/2022basic/texmf-dist/tex/latex/mathdesign/mdput/omsmdput.fd
-File: omsmdput.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdput.
-)
-LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 30.
-LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 30.
-LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 30.
-LaTeX Font Info:    Trying to load font information for OMX+mdput on input line
- 30.
-
-(/usr/local/texlive/2022basic/texmf-dist/tex/latex/mathdesign/mdput/omxmdput.fd
-File: omxmdput.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdput.
-)
-LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 30.
-LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 30.
-LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 30.
-LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 30.
-LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 30.
-LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 30.
-LaTeX Font Info:    Trying to load font information for MDA+mdput on input line
- 30.
-
-(/usr/local/texlive/2022basic/texmf-dist/tex/latex/mathdesign/mdput/mdamdput.fd
-File: mdamdput.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdput.
-)
-LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 30.
-LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 30.
-LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 30.
-LaTeX Font Info:    Trying to load font information for MDB+mdput on input line
- 30.
-
-(/usr/local/texlive/2022basic/texmf-dist/tex/latex/mathdesign/mdput/mdbmdput.fd
-File: mdbmdput.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdput.
-)
-LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 30.
-LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 30.
-LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 30.
-
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-
-Overfull \hbox (39.19214pt too wide) detected at line 66
-\OML/mdput/m/it/10 W \OT1/mdput/m/n/10 = [] [] \OMS/mdput/m/n/10 ^^A \OML/mdput
-/m/it/10 d[] \OT1/mdput/m/n/10 = [] \OML/mdput/m/it/10 q [] \OMS/mdput/m/n/10 ^
-^A []\OML/mdput/m/it/10 dt \OT1/mdput/m/n/10 = 0
- []
-
 LaTeX Font Info:    Font shape `T1/mdput/m/sl' will be
-(Font)              scaled to size 9.40002pt on input line 68.
+(Font)              scaled to size 9.40002pt on input line 24.
+LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
+(Font)              scaled to size 10.70007pt on input line 24.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1194,27 +1130,20 @@ Missing character: There is no ; in font nullfont!
 ]
 (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 23735 strings out of 478233
- 516996 string characters out of 5841343
- 883151 words of memory out of 5000000
- 41478 multiletter control sequences out of 15000+600000
- 501981 words of font info for 61 fonts, out of 8000000 for 9000
+ 23647 strings out of 478233
+ 516580 string characters out of 5841343
+ 858342 words of memory out of 5000000
+ 41408 multiletter control sequences out of 15000+600000
+ 486309 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 115i,12n,132p,422b,1027s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022basic/texmf-dist/fonts/enc/dvips/ly1/texn
-ansi.enc}{/usr/local/texlive/2022basic/texmf-dist/fonts/enc/dvips/cm-super/cm-s
-uper-t1.enc}</usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/mathdes
-ign/mdput/md-utr7t.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/pub
-lic/mathdesign/mdput/md-utr7v.pfb></usr/local/texlive/2022basic/texmf-dist/font
-s/type1/public/mathdesign/mdput/md-utr7y.pfb></usr/local/texlive/2022basic/texm
-f-dist/fonts/type1/public/mathdesign/mdput/md-utri7m.pfb></usr/local/texlive/20
-22basic/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2022
-basic/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/local/texlive/2022b
-asic/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on main.pdf (1 page, 58668 bytes).
+ 115i,12n,132p,422b,667s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022basic/texmf-dist/fonts/enc/dvips/cm-super
+/cm-super-t1.enc}</usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/cm
+-super/sftt1000.pfb>
+Output written on main.pdf (1 page, 24330 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
+ 41 PDF objects out of 1000 (max. 8388607)
+ 19 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  109 words of extra memory for PDF output out of 10000 (max. 10000000)
 

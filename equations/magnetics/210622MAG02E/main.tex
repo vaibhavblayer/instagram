@@ -20,8 +20,7 @@
    {
 		\foreach  \y in {0,1,...,4}
    {
-		\fill (\x, \y) circle(1pt);   
-		\draw (\x, \y) circle(3pt);
+		\node at (\x, \y)[scale=0.6] {$\times$};   
    };   
    };
 \end{scope}
@@ -31,7 +30,7 @@
 
 \foreach  \a in {0,45,...,225}
    {
-\begin{scope}[ thin, rotate around= {\a:(0, 1.5)}]
+\begin{scope}[ thick, rotate around= {\a:(0, 1.5)}]
 \coordinate (a) at (0,0);
 	
 		\draw[->, orange] (a) --+(0.65, 0);
@@ -48,16 +47,16 @@
 
 \begin{minipage}{2cm}
 \begin{tikzpicture}
-\begin{scope}[>=latex, thin, every node/.style={scale=0.65}]
+\begin{scope}[>=latex, every node/.style={scale=0.85, matte-black}]
 \coordinate (a) at (0,0);
 		\draw[->, orange] (a)++(0, 0.15) node[left]{$\vec{v}$} --+(0.3, 0);	
 	\draw[->, teal] (a)++(0, -0.5) node[left]{$\vec{F}_m$}--+(0.3, 0);
 \fill[black] (a)++(0, -0.15) node[left]{$q$} circle(1.5pt);
-
-\fill[purple] (a)++(0, 0.5)  circle(1pt);
-\draw[purple] (a)++(0, 0.5) node[left]{$\vec{B}$} circle(2pt);
+\coordinate (b) at ($(a)+(0, 0.5)$);
+\node at (b)[purple]{$\times$};
+\node at (b)[left]{$\vec{B}$};
 \end{scope}
-\draw[ rounded corners] (a)++(-0.5, -0.75) rectangle (0.5, 0.75);
+\draw[ rounded corners] (a)++(-0.6, -0.85) rectangle (0.6, 0.85);
 \end{tikzpicture}
 \end{minipage}
 \begin{minipage}{4cm}

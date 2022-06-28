@@ -1,0 +1,8 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/vaibhavblayer/instagram/manim/graphs/media/videos/trigo/1200p60/partial_movie_files/TrigoTable/3622258879_194048778_3182470745.mp4'
+file 'file:/Users/vaibhavblayer/instagram/manim/graphs/media/videos/trigo/1200p60/partial_movie_files/TrigoTable/2630112635_2300736020_936326868.mp4'
+file 'file:/Users/vaibhavblayer/instagram/manim/graphs/media/videos/trigo/1200p60/partial_movie_files/TrigoTable/2630112635_3079895471_4241900308.mp4'
+file 'file:/Users/vaibhavblayer/instagram/manim/graphs/media/videos/trigo/1200p60/partial_movie_files/TrigoTable/2630112635_2300736020_2951436276.mp4'
+file 'file:/Users/vaibhavblayer/instagram/manim/graphs/media/videos/trigo/1200p60/partial_movie_files/TrigoTable/2630112635_883665026_3072514488.mp4'
+file 'file:/Users/vaibhavblayer/instagram/manim/graphs/media/videos/trigo/1200p60/partial_movie_files/TrigoTable/2630112635_2300736020_2552549094.mp4'
+file 'file:/Users/vaibhavblayer/instagram/manim/graphs/media/videos/trigo/1200p60/partial_movie_files/TrigoTable/2630112635_1743951114_3874029065.mp4'

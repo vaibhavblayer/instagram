@@ -1,0 +1,24 @@
+\documentclass{article}
+\usepackage{vaibhavblayer}
+\instagramp
+
+\header{220622}{MAG}{03}[E]
+\footer{3}
+\usetikzlibrary{bending}
+\begin{document}
+
+\pagecolor{white!85!orange}
+\color{white!10!purple}
+
+
+\vspace*{\fill}
+\begin{center}
+\begin{tikzpicture}
+\draw[very thick,decoration={aspect=0.3, segment length=10 mm,
+     amplitude=1.5 cm ,coil},decorate,arrows = {[bend]-}] (0,0) --(5, 0);
+
+\end{tikzpicture}
+\end{center}
+
+\vspace*{\fill}
+\end{document}

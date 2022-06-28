@@ -15,13 +15,12 @@
 \vspace*{\fill}
 \begin{center}
 \begin{tikzpicture}
-\begin{scope}[opacity=0.3]
+\begin{scope}[opacity=0.5]
 \foreach  \x in {0,1,...,6}
    {
 		\foreach  \y in {0,1,...,4}
    {
-		\fill (\x, \y) circle(1pt);   
-		\draw (\x, \y) circle(3pt);
+		\node at (\x,\y)[scale=0.6]{$\times$};
    };   
    };
 \end{scope}
@@ -65,8 +64,8 @@
 	\draw[->, teal] (a)++(0, -0.5) node[left]{$\vec{F}_m$}--+(0.3, 0);
 \fill[black] (a)++(0, -0.15) node[left]{$q$} circle(1.5pt);
 
-\fill[purple] (a)++(0, 0.5)  circle(1pt);
-\draw[purple] (a)++(0, 0.5) node[left]{$\vec{B}$} circle(2pt);
+\coordinate[label={[left]:$\vec{B}$}] (b) at ($(a)+(0, 0.5)$) ;
+\node at (b)[scale=0.6, purple]{$\times$};
 \end{scope}
 \draw[ rounded corners] (a)++(-0.55, -0.85) rectangle (0.55, 0.85);
 \end{tikzpicture}
