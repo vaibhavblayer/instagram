@@ -2,11 +2,11 @@
 
 from manim import *
 
-def config_instagram():
+def config_instagram(w=800):
 	config.frame_width = 10.1
 	config.frame_height = 10.1
-	config.pixel_width = 2400
-	config.pixel_height = 2400
+	config.pixel_width = w
+	config.pixel_height = w
 	config.background_color="#FDEBD0"
 
 def putAxes():
@@ -18,6 +18,13 @@ def putAxes():
 		tips=False,
 		).set_color(GRAY_D)
 	return name
+
+
+
+def setDefaults():
+	Text.set_default(color=BLACK)
+	Circle.set_default(color=BLACK)
+	Line.set_default(color=BLACK)
 
 
 

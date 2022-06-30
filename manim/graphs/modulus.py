@@ -74,5 +74,129 @@ class Modulus(Scene):
 
 
 
+class Modulus2(Scene):
+	
+	config_instagram()
+
+	def construct(self):
+		myTemplate = TexTemplate()
+		myTemplate.add_to_preamble(r"\usepackage[utopia]{mathdesign}")
+
+		eq=Tex(r"$f(x)=|x+1|$", tex_template=myTemplate) 
+		modx = Tex(r"$|x|$", tex_template=myTemplate).shift(RIGHT*3.6+UP*1).set_color(GRAY_E).scale(0.8)
+		modxx = Tex(r"$|x+1|$", tex_template=myTemplate).shift(RIGHT*3.5+UP*2).set_color(GRAY_E).scale(0.8)
+	
+		equation = ["$(a+b)^2$", "$a^2+b^2+2ab$", "$a^2+b^2+2ab$"]
+
+		for part in equation:
+			self.add(Tex(part))
+		
+
+		ll = Line(DOWN*2, RIGHT*3+UP)
+		lll = Line(DOWN*2, -RIGHT*3+UP)
+		
+		ggg = Group()
+		for i in range(11):
+			p1 = ll.point_from_proportion(i/10)
+			p2 = lll.point_from_proportion(i/10)
+			ar = Arrow(start=p1+[0, -0.25, 0], end=p1+[0, 0.75, 0]).set_color(GRAY_E)
+			ar2 = Arrow(start=p2+[0, -0.25, 0], end=p2+[0, 0.75, 0]).set_color(GRAY_E)
+			ggg.add(ar, ar2)
+
+
+		gg = Group(Dot(point=RIGHT*3+UP), Dot(point=-RIGHT*3+UP), ll, lll)
+		self.add(gg.set_color(GRAY_E))
+		self.play(ggg.animate.shift(UP*0.25))
+		self.play(gg.animate.shift(UP))
+		self.add(modxx)
+		self.wait()
+
+
+
+
+
+class Modulus3(Scene):
+	config_instagram()
+	
+	def construct(self):
+		name = putAxes()
+		
+		myTemplate = TexTemplate()
+		myTemplate.add_to_preamble(r"\usepackage[utopia]{mathdesign}")
+		eq=Tex(r"$f(x)=|x+1|$", tex_template=myTemplate).set_color(BLACK).to_edge(UP)
+		
+		liner = Line(ORIGIN, [3, 3, 0])
+		linel = Line(ORIGIN, [-3, 3, 0])
+		og = VGroup(liner, linel).shift(DOWN*2).set_color(BLACK)
+
+		eq1=Tex(r"$|x|$", tex_template=myTemplate).set_color(BLACK).next_to(liner, RIGHT)
+		ng = og.copy().set_color(BLACK)
+		ag = VGroup().set_color(BLACK)
+		for i in range(11):
+			p1 = liner.point_from_proportion(i/10)
+			p2 = linel.point_from_proportion(i/10)
+			ag.add(Arrow(start=p1+[-0.25, 0, 0], end=p1+[-0.8, 0, 0]).set_color(BLACK))
+			ag.add(Arrow(start=p2+[0.25, 0, 0], end=p2+[-0.8, 0, 0]).set_color(BLACK))
+		self.add(eq)
+		self.add(name)
+		eq2=Tex(r"$|x+1|$", tex_template=myTemplate).set_color(BLACK).next_to(ng, UR)
+		self.play(Create(og))
+		self.play(Flash(eq1))
+		self.play(ag.animate.shift(LEFT*0.25))
+		self.play(ng.animate.shift(LEFT*0.25))
+		self.play(Flash(eq2))
+		self.wait()
+		
+
+
+class Modulus4(Scene):
+	config_instagram(800)
+#	config.background_color=BLACK
+#	config.frame_rate=30
+#	config.transparent=True
+#	config.background_opacity=0.15
+	
+	def construct(self):
+		self.color=BLACK
+		name = putAxes()
+		myTemplate = TexTemplate()
+		myTemplate.add_to_preamble(r"\usepackage[utopia]{mathdesign}")
+		title=Tex(r"$f(x)=|x+1|$", tex_template=myTemplate).to_edge(UP)
+		eq=Tex(r"$f(x)=|x|$", tex_template=myTemplate)
+		eq1=Tex(r"$f(x)=|x+1|$", tex_template=myTemplate)
+		eq2=Tex(r"$f(x)=|x-1|$", tex_template=myTemplate)
+		
+
+		graph = name.plot(
+						lambda x: abs(x),
+						x_range=(-3, 3, 0.01),
+						)
+
+		self.add(title)
+		self.play(Create(name))
+		self.wait()
+		self.add(eq.next_to(graph, LEFT).scale(0.5))
+		self.play(Create(graph.set_color(BLACK)), Flash(eq, color=BLACK, flash_radius=0.5))
+		self.wait()
+		self.play(ApplyPointwiseFunction(
+				lambda x: x+[-1, 0, 0], graph.copy().set_color(BLACK)
+		), graph.animate.set_color(GRAY_C))
+
+		self.add(eq1.next_to(eq,LEFT).scale(0.5))
+		self.wait()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/vaibhavblayer/instagram/manim/graphs/media/videos/modulus/2400p60/partial_movie_files/Modulus3/3551995878_2040457750_2720276599.mp4'
+file 'file:/Users/vaibhavblayer/instagram/manim/graphs/media/videos/modulus/2400p60/partial_movie_files/Modulus3/3705131965_2540434113_224274812.mp4'
+file 'file:/Users/vaibhavblayer/instagram/manim/graphs/media/videos/modulus/2400p60/partial_movie_files/Modulus3/3705131965_1628026092_4067716294.mp4'
+file 'file:/Users/vaibhavblayer/instagram/manim/graphs/media/videos/modulus/2400p60/partial_movie_files/Modulus3/3705131965_3706594410_2504545334.mp4'
+file 'file:/Users/vaibhavblayer/instagram/manim/graphs/media/videos/modulus/2400p60/partial_movie_files/Modulus3/3705131965_1545295681_2058396662.mp4'
+file 'file:/Users/vaibhavblayer/instagram/manim/graphs/media/videos/modulus/2400p60/partial_movie_files/Modulus3/3705131965_641011677_3092599547.mp4'
