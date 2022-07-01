@@ -150,21 +150,23 @@ class Modulus3(Scene):
 
 
 class Modulus4(Scene):
-	config_instagram(800)
+	config_instagram(2400)
 #	config.background_color=BLACK
 #	config.frame_rate=30
 #	config.transparent=True
 #	config.background_opacity=0.15
 	
 	def construct(self):
-		self.color=BLACK
+		Tex.set_default(color=BLACK)
+		Line.set_default(color=BLACK)
+		Mobject.set_default(color=BLACK)
 		name = putAxes()
 		myTemplate = TexTemplate()
 		myTemplate.add_to_preamble(r"\usepackage[utopia]{mathdesign}")
 		title=Tex(r"$f(x)=|x+1|$", tex_template=myTemplate).to_edge(UP)
-		eq=Tex(r"$f(x)=|x|$", tex_template=myTemplate)
-		eq1=Tex(r"$f(x)=|x+1|$", tex_template=myTemplate)
-		eq2=Tex(r"$f(x)=|x-1|$", tex_template=myTemplate)
+		eq=Tex(r"$|x|$", tex_template=myTemplate)
+		eq1=Tex(r"$|x+1|$", tex_template=myTemplate)
+		eq2=Tex(r"$|x-1|$", tex_template=myTemplate)
 		
 
 		graph = name.plot(
@@ -175,14 +177,21 @@ class Modulus4(Scene):
 		self.add(title)
 		self.play(Create(name))
 		self.wait()
-		self.add(eq.next_to(graph, LEFT).scale(0.5))
-		self.play(Create(graph.set_color(BLACK)), Flash(eq, color=BLACK, flash_radius=0.5))
+		self.add(eq.move_to([3, 1.2, 0]).scale(0.5))
+		self.play(Create(graph), Flash(eq, color=BLACK, flash_radius=0.5))
 		self.wait()
 		self.play(ApplyPointwiseFunction(
-				lambda x: x+[-1, 0, 0], graph.copy().set_color(BLACK)
+				lambda x: x+[-1, 0, 0], graph.copy()
 		), graph.animate.set_color(GRAY_C))
 
-		self.add(eq1.next_to(eq,LEFT).scale(0.5))
+		self.add(eq1.move_to([-4, 1.2, 0]).scale(0.5))
+		self.play(Flash(eq1, color=BLACK, flash_radius=0.5))
+		self.wait()
+		self.play(ApplyPointwiseFunction(
+				lambda x: x+[1, 0, 0], graph.copy().set_color(BLACK)
+		))
+		self.add(eq2.move_to([4, 1.2, 0]).scale(0.5))
+		self.play(Flash(eq2, color=BLACK, flash_radius=0.5))
 		self.wait()
 
 
