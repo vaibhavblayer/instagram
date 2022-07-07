@@ -1,0 +1,12 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/vaibhavblayer/instagram/manim/graphs/media/videos/finalll/1080p60/partial_movie_files/Testing/37811033_3040039285_2655194685.mov'
+file 'file:/Users/vaibhavblayer/instagram/manim/graphs/media/videos/finalll/1080p60/partial_movie_files/Testing/3911744950_674209104_1460267271.mov'
+file 'file:/Users/vaibhavblayer/instagram/manim/graphs/media/videos/finalll/1080p60/partial_movie_files/Testing/3911744950_3526651711_4116393697.mov'
+file 'file:/Users/vaibhavblayer/instagram/manim/graphs/media/videos/finalll/1080p60/partial_movie_files/Testing/3911744950_674209104_4098610794.mov'
+file 'file:/Users/vaibhavblayer/instagram/manim/graphs/media/videos/finalll/1080p60/partial_movie_files/Testing/3911744950_2078889600_3914018301.mov'
+file 'file:/Users/vaibhavblayer/instagram/manim/graphs/media/videos/finalll/1080p60/partial_movie_files/Testing/3911744950_674209104_2378521172.mov'
+file 'file:/Users/vaibhavblayer/instagram/manim/graphs/media/videos/finalll/1080p60/partial_movie_files/Testing/3911744950_1032639847_1101986966.mov'
+file 'file:/Users/vaibhavblayer/instagram/manim/graphs/media/videos/finalll/1080p60/partial_movie_files/Testing/3911744950_674209104_3370192748.mov'
+file 'file:/Users/vaibhavblayer/instagram/manim/graphs/media/videos/finalll/1080p60/partial_movie_files/Testing/3911744950_674865691_3999072993.mov'
+file 'file:/Users/vaibhavblayer/instagram/manim/graphs/media/videos/finalll/1080p60/partial_movie_files/Testing/3911744950_674209104_1243141194.mov'
+file 'file:/Users/vaibhavblayer/instagram/manim/graphs/media/videos/finalll/1080p60/partial_movie_files/Testing/3911744950_674209104_1524150935.mov'
